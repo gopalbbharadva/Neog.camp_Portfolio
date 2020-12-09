@@ -123,3 +123,16 @@ ul{
     padding: 1.5rem;
     background-color: var(--section-color);
 }
+
+/* Lists */
+.container-center{
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.container-center-og{
+    background-color: var(--section-color);
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}

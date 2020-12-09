@@ -10,7 +10,7 @@ body{
 /* Navigation bar */
 
 .navbar{
-    padding: 1rem;
+    padding: 0.4rem;
     color: white;
     background-color: var(--primary-color);
     border-bottom-left-radius: 1rem;

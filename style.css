@@ -1,6 +1,7 @@
 
 body{
-    margin: 0px;
+    margin: auto;
+    max-width: 900px;
     font-family: 'Montserrat', sans-serif;
 }
 :root{
@@ -116,6 +117,7 @@ ul{
     margin: auto;
 }
 .container2{
+    border-radius: 1rem;
     padding: 2rem;
     background-color: var(--section-color);
 }
@@ -135,6 +137,7 @@ ul{
     text-align: center;
 }
 .container-center-og{
+    border-radius: 1rem;
     background-color: var(--section-color);
     padding: 0.5rem;
     padding-bottom: 2rem;

@@ -43,13 +43,15 @@
             <p>
               According to
               <a
-                style="text-decoration: none"
+                style="text-decoration: none; color: green"
                 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
-                ><u>MDN</u></a
+                >MDN</a
               >
-              : A function bundled together with its lexical scope forms a
-              closure. In simple words, A function that uses a value that
-              outside of its context is closure.
+              : A function
+              <span style="background-color: #e6ecf5"> bundled together</span>
+              with its lexical scope forms a closure. In simple words, A
+              function that uses a value that outside of its context is
+              <span style="background-color: #e6ecf5">closure</span>.
             </p>
           </li>
         </ul>
@@ -61,8 +63,8 @@
         <li>
           <p>
             According to definition, inner( ) is a function that uses a variable
-            <strong>number</strong> that is not the part of its scope. This is
-            the closure in javascipt.
+            <span style="background-color: #e6ecf5">number</span> that is not
+            the part of its scope. This is the closure in javascipt.
           </p>
         </li>
         <h4 style="color: #6b7280">
@@ -74,7 +76,10 @@
           <p>
             At line 7 , outer function returns the entire inner ( ) and store it
             in the functionReference variable. After line 7, execution of outer
-            function is completed , so memory , execution context and call stack
+            function is completed ,
+            <span style="background-color: #e6ecf5"
+              >so memory , execution context and call stack</span
+            >
             of outer () is empty now.
           </p>
           <p>
@@ -83,47 +88,70 @@
           </p>
           <ul>
             <li>
-              <p><i class="fas fa-arrow-right"></i> Will it print undefined?</p>
-            </li>
-            <li>
               <p>
-                <i class="fas fa-arrow-right"></i> Will it show reference error?
+                <i class="fas fa-arrow-right"></i>
+                <span style="background-color: #e6ecf5"
+                  >Will it print undefined?</span
+                >
               </p>
             </li>
             <li>
-              <p><i class="fas fa-arrow-right"></i> Or Will it print 33?</p>
+              <p>
+                <i class="fas fa-arrow-right"></i
+                ><span style="background-color: #e6ecf5">
+                  Will it show reference error?</span
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-arrow-right"></i
+                ><span style="background-color: #e6ecf5">
+                  Or Will it print 33?</span
+                >
+              </p>
             </li>
           </ul>
         </li>
+        <h3 style="text-align: center; color: #6b7280">Output:</h3>
         <img src="images/clThird.png" alt="" class="image" />
         <li>
           <p>
             Execution of outer( ) is completed still number can access outside
-            of the outer ( ).This is the closure. inner ( ) returned from outer(
-            ) still remember the lexical scope of parent function, and thar's
-            why it remember the value of number even if it is outside of its
-            scope.
+            of the outer( ). This is the closure. inner( ) returned from outer(
+            ) still remember the
+            <span style="background-color: #e6ecf5">
+              lexical scope of parent function</span
+            >, and that's why it remembers the value of number even if it is
+            <span style="background-color: #e6ecf5">outside of its scope.</span>
           </p>
         </li>
         <li>
           <p>
             This is power of closure in js. if we go deep into another function
-            still it remember the lexical scope of its parents's parent
-            function.
+            still it remember the lexical scope of its
+            <span style="background-color: #e6ecf5"
+              >parents's parent function.</span
+            >
           </p>
         </li>
         <h3>Example 2:</h3>
         <img src="images/clFourth.png" alt="" class="image" />
         <li>
           <p>
-            In above example, there are nesting of closures. So inner function
-            remembers the lexical scope of outer( )'s parent function which is
-            demo( ). aT line 12 execution of demo( ) is completed, and it
-            returns outer ( ). At line 13, there is function call of outer( ),
-            at the end of outer( ) inner ( ) will executes and it will remember
-            the both variables even if they are not in its block context.
+            In the above example, there is the
+            <span style="background-color: #e6ecf5"> nesting of closures</span>.
+            So inner function remembers the lexical scope of outer( )'s parent
+            function which is demo( ). In line 12 execution of demo( ) is
+            completed, and it returns outer( ). In line 13, there is a function
+            call of the outer( ), at the end of outer( ) inner( ) will executes
+            and it will remember both variables even if
+            <span style="background-color: #e6ecf5">
+              they are not in its block context.</span
+            >
           </p>
         </li>
+        <h3 style="text-align: center; color: #6b7280">Output:</h3>
         <img src="images/clFifth.png" alt="" class="image" />
       </div>
     </header>

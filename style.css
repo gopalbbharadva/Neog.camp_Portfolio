@@ -60,10 +60,11 @@ li {
 
 /* Header */
 .image {
+  border-radius: 0.5rem;
   max-width: 80%;
   width: 400px;
   display: block;
-  margin: auto;
+  margin: 1rem auto;
 }
 .header-text {
   text-align: center;

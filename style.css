@@ -167,6 +167,7 @@ ul {
   margin: auto;
 }
 .blogtext {
+  padding: 0.5rem 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

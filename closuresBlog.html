@@ -48,10 +48,10 @@
                 >MDN</a
               >
               : A function
-              <span style="background-color: #e6ecf5"> bundled together</span>
+              <span class="highlight"> bundled together</span>
               with its lexical scope forms a closure. In simple words, A
               function that uses a value that outside of its context is
-              <span style="background-color: #e6ecf5">closure</span>.
+              <span class="highlight">closure</span>.
             </p>
           </li>
           <li>
@@ -63,7 +63,7 @@
             <p>
               According to definition, inner( ) is a function that uses a
               variable
-              <span style="background-color: #e6ecf5">number</span> that is not
+              <span class="highlight">number</span> that is not
               the part of its scope. This is the closure in javascipt.
             </p>
           </li>
@@ -77,7 +77,7 @@
               At line 7 , outer function returns the entire inner ( ) and store
               it in the functionReference variable. After line 7, execution of
               outer function is completed ,
-              <span style="background-color: #e6ecf5"
+              <span class="highlight"
                 >so memory , execution context and call stack</span
               >
               of outer () is empty now.
@@ -90,7 +90,7 @@
               <li>
                 <p>
                   <i class="fas fa-arrow-right"></i>
-                  <span style="background-color: #e6ecf5"
+                  <span class="highlight"
                     >Will it print undefined?</span
                   >
                 </p>
@@ -98,7 +98,7 @@
               <li>
                 <p>
                   <i class="fas fa-arrow-right"></i
-                  ><span style="background-color: #e6ecf5">
+                  ><span class="highlight">
                     Will it show reference error?</span
                   >
                 </p>
@@ -106,7 +106,7 @@
               <li>
                 <p>
                   <i class="fas fa-arrow-right"></i
-                  ><span style="background-color: #e6ecf5">
+                  ><span class="highlight">
                     Or Will it print 33?</span
                   >
                 </p>
@@ -120,10 +120,10 @@
               Execution of outer( ) is completed still number can access outside
               of the outer( ). This is the closure. inner( ) returned from
               outer( ) still remember the
-              <span style="background-color: #e6ecf5">
+              <span class="highlight">
                 lexical scope of parent function</span
               >, and that's why it remembers the value of number even if it is
-              <span style="background-color: #e6ecf5"
+              <span class="highlight"
                 >outside of its scope.</span
               >
             </p>
@@ -132,7 +132,7 @@
             <p>
               This is power of closure in js. if we go deep into another
               function still it remember the lexical scope of its
-              <span style="background-color: #e6ecf5"
+              <span class="highlight"
                 >parents's parent function.</span
               >
             </p>
@@ -142,13 +142,13 @@
           <li>
             <p>
               In the above example, there is the
-              <span style="background-color: #e6ecf5"> nesting of closures</span
+              <span class="highlight"> nesting of closures</span
               >. So inner function remembers the lexical scope of outer( )'s
               parent function which is demo( ). In line 12 execution of demo( )
               is completed, and it returns outer( ). In line 13, there is a
               function call of the outer( ), at the end of outer( ) inner( )
               will executes and it will remember both variables even if
-              <span style="background-color: #e6ecf5">
+              <span class="highlight">
                 they are not in its block context.</span
               >
             </p>

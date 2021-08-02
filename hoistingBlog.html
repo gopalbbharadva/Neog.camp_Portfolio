@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" href="images/p.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-brand">Gopal Bharadva</div>
+      <ul class="unordered-list" type="none">
+        <li><a class="navbar-item" href="/index.html">Home</a></li>
+        <li><a class="navbar-item" href="/projects.html">Projects</a></li>
+        <li>
+          <a class="navbar-item" style="font-weight: bold" href="/blogs.html"
+            >Blog</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+      <!-- <h2>Header</h2> -->
+      <div class="header container-white">
+        <img class="image" src="images/hoisting.png" />
+        <ul>
+          <li>
+            <p>
+              Hey readers, in this blog we will see about hoisting in js. You
+              might wondering that Javascript is not like all other programming
+              languages ,it is loosly typed language.For exa. You can create
+              variable at any place in your code ,you don't have to provide data
+              type for the variable etc...
+            </p>
+            <p>
+              Before Understanding hoisting in js, we first understand how js
+              runs behind scene.
+            </p>
+          </li>
+          <li>
+            <img src="images/sum.png" alt="" class="image" />
+          </li>
+          <li>
+            <p>
+              Before compiling any javascript function, one execution context
+              will be created which is called global context. It has 2 parts.
+              <span style="display: block">1.Memory allocation phase</span>
+              <span>2.Code execution phase</span>
+            </p>
+            <p>
+              In js ,even before compiling single line of code functions and
+              variables are initialized with default values. During compiling
+              the code, actual values of variables and functions are assigned to
+              it.
+            </p>
+          </li>
+          <li>
+            <img src="images/hsFirst.png" class="image" alt="" />
+            <img src="images/hsFirstOP.png" class="image" alt="" />
+          </li>
+          <li>
+            <p>
+              In most common languages like c, java above code will give error
+              like <strong> number is not defined</strong>. but in javascript
+              number will be assigned with the value
+              <strong>undefined</strong> before execution starts, just we
+              discussed in the above theory part.
+            </p>
+            <p>So by keeping that in mind we start hoisting in js.</p>
+          </li>
+        </ul>
+        <h3 style="text-align: center; color: #6b7280">Output:</h3>
+        <img src="images/clFifth.png" alt="" class="image" />
+      </div>
+    </header>
+
+    <footer>
+      <div class="footer-header">Connect with me</div>
+      <ul class="social-links">
+        <li class="list-item">
+          <a class="link" href="https://github.com/gopalbbharadva"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="list-item">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/gopal-bharadva-1aa880176/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="list-item">
+          <a class="link" href="https://www.instagram.com/gopal_33_gb/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
